@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-02-18T15:04:37.887Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="SO0tV5N5pS9x7o3Wfudh" version="23.1.5" type="device">
+  <diagram name="Page-1" id="-26h0Oo6iH_yeWzYnSCI">
+    <mxGraphModel dx="880" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-8" target="GUzZ6wI1gwsfzww0ZaOD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-8" value="Convolutional Layers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-10" target="GUzZ6wI1gwsfzww0ZaOD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-10" value="Batch Normalisation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-12" target="GUzZ6wI1gwsfzww0ZaOD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-12" value="ReLU Activation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-14" target="GUzZ6wI1gwsfzww0ZaOD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-14" value="PyramidNet&lt;br&gt;(Layer1 to Layer4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-16" target="GUzZ6wI1gwsfzww0ZaOD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-16" value="Global Average Pooling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-18" target="GUzZ6wI1gwsfzww0ZaOD-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-18" value="Flatten Operation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-20" target="GUzZ6wI1gwsfzww0ZaOD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-20" value="Fully Connected Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-22" target="GUzZ6wI1gwsfzww0ZaOD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-22" value="Sigmoid Activation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-24" value="Prediction Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUzZ6wI1gwsfzww0ZaOD-26" target="GUzZ6wI1gwsfzww0ZaOD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUzZ6wI1gwsfzww0ZaOD-26" value="Input Image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
