@@ -62,7 +62,7 @@
         <p class="lead">Upload an eye image to check for signs of glaucoma.</p>
         <form action="/" method="POST" enctype="multipart/form-data">
             <div class="custom-file mb-3">
-                <input type="file" class="custom-file-input" id="inputImage" name="image" accept="image/*" required>
+                <input type="file" class="custom-file-input" id="inputImage" name="image" accept="image/*" required onchange="displaySelectedImage(event)">
                 <label class="custom-file-label" for="inputImage">Choose an image...</label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -94,5 +94,18 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function displaySelectedImage(event) {
+            const input = event.target;
+            const label = input.nextElementSibling;
+            const file = input.files[0];
+            
+            if (file) {
+                label.innerHTML = file.name;
+            } else {
+                label.innerHTML = 'Choose an image...';
+            }
+        }
+    </script>
 </body>
 </html>
